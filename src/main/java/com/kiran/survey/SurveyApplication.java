@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SurveyApplication {
 
 	public static void main(String[] args) {
+		System.out.println("App Starting");
 		SpringApplication.run(SurveyApplication.class, args);
+		System.out.println("App Started");
 	}
 
 }
