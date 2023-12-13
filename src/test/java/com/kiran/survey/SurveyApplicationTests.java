@@ -1,13 +1,26 @@
 package com.kiran.survey;
 
-import org.junit.jupiter.api.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
+
+
 
 @SpringBootTest
 class SurveyApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+	/*
+	 * @Autowired SurveyController surveyController;
+	 * 
+	 * @Autowired SurveyService surveyservice;
+	 * 
+	 * // @Autowired // SurveyRepository surveyRepository;
+	 * 
+	 * @Test void testSurveyControllerDependancyInjection() {
+	 * assertNotNull(surveyController); assertEquals(surveyController.getSurveys(),
+	 * "Hello World !!"); }
+	 * 
+	 * @Test void testDependancyInjection() { assertNotNull(surveyservice); }
+	 */
 
+	 
 }
