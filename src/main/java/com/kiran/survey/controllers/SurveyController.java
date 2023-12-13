@@ -3,6 +3,7 @@ package com.kiran.survey.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import com.kiran.survey.service.SurveyService;
 
@@ -15,6 +16,7 @@ public class SurveyController {
 	@GetMapping("/getHelloWorld")
 	public String getSurveys() {
 		System.out.println("In SurveyController");
+		 
 		return surveyService.getHelloWorld();
 	}
 }
